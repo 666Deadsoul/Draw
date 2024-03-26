@@ -1,0 +1,91 @@
+.Main_header{
+    margin:0;
+    background-color:cadetblue;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:0;
+    height:70px;
+}
+
+#logo{
+    padding:20px 100px;
+    width:150px;
+    height:40px;
+    cursor: pointer;
+}
+#m_items li{
+    padding:15px;
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+#m_items li a{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: white;
+    padding: 5px;
+}
+#m_items li a:hover{
+    background-color:lightblue ;
+    color: black;
+    border-radius: 15px;
+    font-weight: 600;
+}
+#checkbtn{
+    display: none;
+}
+.check-logo{
+    font-size: 25px;
+    color: white;
+    padding:20px;
+    cursor:pointer;
+    display: none;
+    margin:10px;
+}
+@media screen and (min-width:490px) and (max-width:800px){
+    #m_items li a{
+        font-size: 1.3em;
+    }
+    #m_items li{
+        padding:5px;
+    }
+    #logo{
+        padding:10px 10px;
+        width:100px;
+        height:30px;
+    }
+}
+@media (max-width:490px){
+    .check-logo{
+        display: block;
+        position: absolute;
+        left:10px;
+    }
+    #m_items{
+        position: fixed;
+        width:40%;
+        height:100vh;
+        background-color: cadetblue;
+        top:53px;
+        transition: all .5s;
+        left: -100%;
+    }
+    #m_items li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    #checkbtn{
+        padding: 10px;
+    }
+    #checkbtn:checked ~ #m_items{
+        left:0;
+    }
+    #logo{
+        padding:5px 5px;
+        width:100px;
+        height:30px;
+    }
+}
