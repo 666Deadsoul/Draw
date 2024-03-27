@@ -15,6 +15,13 @@ import './draw.css';
 
 const Draw =()=>{
     return(
+        <>
+        <div className="pad_name">
+        <label>
+            File Name: 
+        </label>
+        <input type="text" placeholder="Name"/>
+        </div>
         <div className="draw_main">
             <div className="draw_tools">
                 <FontAwesomeIcon icon={faPlus} />
@@ -26,11 +33,12 @@ const Draw =()=>{
                 <FontAwesomeIcon icon={faFloppyDisk} />
                 <FontAwesomeIcon icon={faTrash} />
             </div>
-            <div className="Draw_area">
-
+            <div className="draw_area">
+        
             </div>
         
         </div>
+        </>
     );
 }
 

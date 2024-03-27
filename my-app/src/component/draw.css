@@ -1,14 +1,48 @@
+.pad_name{
+    text-align: center;
+    padding:20px;
+    font-size: 1.5em;
+}
+.pad_name input{
+    margin-left: 10px;
+    height:25px;
+    border-radius: 10px;
+}
+.pad_name input[type="text"]{
+    vertical-align: middle;
+    padding:5px;
+}
+.pad_name label{
+    display: inline-block;
+}
 .draw_main{
     display: flex;
     justify-content: flex-start;
+    padding:20px;
+    margin-top: 20px;
 }
 .draw_tools{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    font-size: 2em;
-    padding: 30px;
+    background-color:rgb(238, 231, 101);
+    border-radius: 20px;
+    margin:20px;
+    width:100px;
+    padding:10px;
 }
-.draw_tools FontAwesomeIcon{
+.draw_tools .svg-inline--fa{
     padding:20px;
+    font-size: 2em;
+    border-radius: 20px;
+}
+.draw_area{
+    background-color:rgb(201, 220, 235);
+    width:90%;
+    border-radius: 20px;
+    padding: 10px;
+}
+.draw_tools .svg-inline--fa:hover{
+    color:white;
+    background-color: bisque;
 }
