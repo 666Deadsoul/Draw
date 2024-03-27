@@ -1,0 +1,14 @@
+.draw_main{
+    display: flex;
+    justify-content: flex-start;
+}
+.draw_tools{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 2em;
+    padding: 30px;
+}
+.draw_tools FontAwesomeIcon{
+    padding:20px;
+}

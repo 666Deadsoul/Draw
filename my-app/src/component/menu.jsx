@@ -24,11 +24,3 @@ const Menu= ()=>{
     );
 }
 export default Menu;
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import {
-//   faPenToSquare,
-//   faMagnifyingGlass,
-//   faUserPlus,
-//   faChevronLeft,
-//   faChevronRight,
-// } from "@fortawesome/free-solid-svg-icons";
