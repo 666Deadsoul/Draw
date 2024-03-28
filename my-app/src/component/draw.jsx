@@ -33,7 +33,7 @@ const Draw =()=>{
                 <FontAwesomeIcon icon={faFloppyDisk} />
                 <FontAwesomeIcon icon={faTrash} />
             </div>
-            <div className="draw_area">
+            <div className="canvas">
         
             </div>
         

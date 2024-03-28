@@ -36,7 +36,7 @@
     font-size: 2em;
     border-radius: 20px;
 }
-.draw_area{
+.canvas{
     background-color:rgb(201, 220, 235);
     width:90%;
     border-radius: 20px;
