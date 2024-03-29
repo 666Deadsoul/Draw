@@ -4,7 +4,7 @@ import{
     faPlus,
     faPencil,
     faEraser,
-    faPaintBrush,
+    faPalette,
     faFill,
     faShapes,
     faFloppyDisk,
@@ -24,14 +24,30 @@ const Draw =()=>{
         </div>
         <div className="draw_main">
             <div className="draw_tools">
-                <FontAwesomeIcon icon={faPlus} />
-                <FontAwesomeIcon icon={faPencil} />
-                <FontAwesomeIcon icon={faEraser} />
-                <FontAwesomeIcon icon={faPaintBrush} />
-                <FontAwesomeIcon icon={faFill} />
-                <FontAwesomeIcon icon={faShapes} />
-                <FontAwesomeIcon icon={faFloppyDisk} />
-                <FontAwesomeIcon icon={faTrash} />
+            <div class="tooltip"><FontAwesomeIcon icon={faPlus} />
+            <span class="tooltiptext">New</span>
+            </div>
+            <div class="tooltip"><FontAwesomeIcon icon={faPencil} />
+            <span class="tooltiptext">Pencil</span>
+            </div>
+            <div class="tooltip"><FontAwesomeIcon icon={faEraser} />
+            <span class="tooltiptext">Eraser</span>
+            </div>
+            <div class="tooltip"><FontAwesomeIcon icon={faFill} />
+            <span class="tooltiptext">Fill</span>
+            </div>
+            <div class="tooltip"><FontAwesomeIcon icon={faPalette} />
+            <span class="tooltiptext">Color</span>
+            </div>
+            <div class="tooltip"><FontAwesomeIcon icon={faShapes} />
+            <span class="tooltiptext">Shapes</span>
+            </div>
+            <div class="tooltip"><FontAwesomeIcon icon={faFloppyDisk} />
+            <span class="tooltiptext">Save</span>
+            </div>
+            <div class="tooltip"><FontAwesomeIcon icon={faTrash} />
+            <span class="tooltiptext">Delete</span>
+            </div>  
             </div>
             <div className="canvas">
         
