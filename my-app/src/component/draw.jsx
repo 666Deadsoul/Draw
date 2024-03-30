@@ -24,6 +24,7 @@ const Draw =()=>{
         </div>
         <div className="draw_main">
             <div className="draw_tools">
+            <label>Tools</label>
             <div class="tooltip"><FontAwesomeIcon icon={faPlus} />
             <span class="tooltiptext">New</span>
             </div>
