@@ -51,6 +51,9 @@ const Draw =()=>{
             </div>  
             </div>
             <div className="canvas">
+            <canvas
+                style={canvstyle}
+            />
         
             </div>
         
@@ -60,3 +63,7 @@ const Draw =()=>{
 }
 
 export default Draw;
+
+const canvstyle={
+    border: "1px solid black"
+}
